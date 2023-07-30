@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/jbennett/tour_maven.git
-  revision: 44236f2912c8dca3183015b5611161a4f82b94a8
+  revision: 25a5de7788253857c7f60c52b168d42a70005c6b
   branch: main
   specs:
     tour_maven (0.1.0)
@@ -253,7 +253,7 @@ GEM
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    zeitwerk (2.6.9)
+    zeitwerk (2.6.10)
 
 PLATFORMS
   arm64-darwin-22
