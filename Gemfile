@@ -66,3 +66,4 @@ end
 
 
 gem "spina", "~> 2.15"
+gem "tour_maven", path: "../tour_maven"

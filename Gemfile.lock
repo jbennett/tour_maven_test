@@ -1,3 +1,9 @@
+PATH
+  remote: ../tour_maven
+  specs:
+    tour_maven (0.1.0)
+      rails (>= 7.0.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -258,6 +264,7 @@ DEPENDENCIES
   spina (~> 2.15)
   sprockets-rails
   stimulus-rails
+  tour_maven!
   turbo-rails
   tzinfo-data
   web-console
