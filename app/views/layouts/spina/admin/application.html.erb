@@ -26,8 +26,7 @@
     <%= render "spina/admin/shared/version" %>
     <%= content_for?(:body) ? yield(:body) : yield %>
 
-    <%= tour_controller(1) %>
-    <%# enrolled_tours_controller %>
+    <%= available_tour_controllers(user: current_spina_user) %>
     <%= tours_controller %>
   </body>
 </html>

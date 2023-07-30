@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_07_30_175332) do
+ActiveRecord::Schema[7.0].define(version: 2023_07_30_200533) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -245,11 +245,26 @@ ActiveRecord::Schema[7.0].define(version: 2023_07_30_175332) do
     t.datetime "password_reset_sent_at", precision: nil
   end
 
+  create_table "tour_maven_events", force: :cascade do |t|
+    t.string "user_type", null: false
+    t.bigint "user_id", null: false
+    t.bigint "tour_id", null: false
+    t.string "action", null: false
+    t.string "identifier"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["tour_id"], name: "index_tour_maven_events_on_tour_id"
+    t.index ["user_type", "user_id"], name: "index_tour_maven_events_on_user"
+  end
+
   create_table "tour_maven_tours", force: :cascade do |t|
     t.string "label", null: false
     t.jsonb "configuration", default: {}, null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "page_filter"
+    t.string "content_selector"
   end
 
+  add_foreign_key "tour_maven_events", "tour_maven_tours", column: "tour_id"
 end

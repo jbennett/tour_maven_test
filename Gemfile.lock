@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/jbennett/tour_maven.git
-  revision: 37df8c7715ee1a626c1fc9e093de2f0a542bf1a9
+  revision: 44236f2912c8dca3183015b5611161a4f82b94a8
   branch: main
   specs:
     tour_maven (0.1.0)
