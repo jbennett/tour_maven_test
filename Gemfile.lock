@@ -1,5 +1,7 @@
-PATH
-  remote: ../tour_maven
+GIT
+  remote: https://github.com/jbennett/tour_maven.git
+  revision: 37df8c7715ee1a626c1fc9e093de2f0a542bf1a9
+  branch: main
   specs:
     tour_maven (0.1.0)
       rails (>= 7.0.6)

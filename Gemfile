@@ -66,4 +66,4 @@ end
 
 
 gem "spina", "~> 2.15"
-gem "tour_maven", path: "../tour_maven"
+gem "tour_maven", git: 'https://github.com/jbennett/tour_maven.git', branch: 'main'
