@@ -1,24 +1,7 @@
-# README
+# Maven Test
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the host application for my [Rails Hackathon]() submisison. See [Tour Maven](https://github.com/jbennett/tour_maven) for the actual project repo.
 
-Things you may want to cover:
+## What is Tour Maven?
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Tour Maven is a Rails engine to give a built in product tours solution.
