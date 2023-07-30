@@ -64,3 +64,5 @@ group :development do
   # gem "spring"
 end
 
+
+gem "spina", "~> 2.15"
